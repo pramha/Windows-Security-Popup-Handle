@@ -1,4 +1,4 @@
-# Windows-Security-Popup-Handle
+# Windows Security Popup Handle
 
 This repository includes Python code to handle the Windows Security Popup window. 
 
