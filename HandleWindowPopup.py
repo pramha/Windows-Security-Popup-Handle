@@ -1,5 +1,5 @@
 import pyautogui
-imort logging
+import logging
 import time
 
 def popup_username():
@@ -10,8 +10,8 @@ def popup_username():
   pyautogui.press('tab')
   
 def popup_password():
- pyautogui.typwrite('password', interval=0.20) 
- time.sleep(3)
- logging.info('successfully entered the password')
- pyautogui.press('tab')
+  pyautogui.typwrite('password', interval=0.20) 
+  time.sleep(3)
+  logging.info('successfully entered the password')
+  pyautogui.press('tab')
 
